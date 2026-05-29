@@ -1,0 +1,10 @@
+torch>=2.0.0
+transformers>=4.45.0
+accelerate
+bitsandbytes
+qwen-vl-utils
+opencv-python
+pillow
+numpy
+tqdm
+pyyaml
