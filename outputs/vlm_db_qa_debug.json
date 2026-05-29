@@ -1,0 +1,542 @@
+{
+  "bb_1_170125_vehicle_217_51608": {
+    "object": 0,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "차로변경진로변경",
+    "gt_a": "후행직진",
+    "gt_b": "선행진로변경",
+    "response": "Q7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: 없음  \nQ12: 없음  \nQ13: 없음  \nQ14: A선행  \nQ16: unknown  \nQ18: 없음  \nQ19: 없음  \nQ20: 없음  \nQ21: 없음  \nQ38: unknown  \nQ39: 없음"
+  },
+  "bb_3_130716_vehicle_46_056": {
+    "object": 0,
+    "place_ids": [
+      1
+    ],
+    "object_name": "차대차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "동일폭도로",
+    "gt_a": "오른쪽에서직진후진입",
+    "gt_b": "왼쪽에서직진선진입",
+    "response": "Q5: 없음  \nQ6: unknown  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ10: unknown  \nQ11: 없음  \nQ14: unknown  \nQ15: 동일폭  \nQ17: 나란히가능  \nQ18: 없음  \nQ21: 없음  \nQ45: 90도미만"
+  },
+  "bb_3_190113_vehicle_118_035": {
+    "object": 0,
+    "place_ids": [
+      1
+    ],
+    "object_name": "차대차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "동일폭도로",
+    "gt_a": "오른쪽에서직진후진입",
+    "gt_b": "왼쪽에서직진선진입",
+    "response": "Q5: 없음  \nQ6: 없음  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ10: unknown  \nQ11: 없음  \nQ14: B선행  \nQ15: 동일폭  \nQ17: 나란히가능  \nQ18: 없음  \nQ21: 없음  \nQ45: 90도미만"
+  },
+  "bb_1_210420_pedestrian_125_112": {
+    "object": 1,
+    "place_ids": [
+      9
+    ],
+    "object_name": "차대보행자",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "단일로중앙선없음",
+    "gt_a": "횡단",
+    "gt_b": "직진",
+    "response": "Q7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: 없음  \nQ14: A선행  \nQ23: 있음  \nQ25: unknown  \nQ36: 없음  \nQ37: 없음"
+  },
+  "bb_1_170717_pedestrian_222_22180": {
+    "object": 1,
+    "place_ids": [
+      11
+    ],
+    "object_name": "차대보행자",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "자동차횡단보도통과후",
+    "gt_a": "적색신호횡단보도10m이내에서횡단",
+    "gt_b": "녹색신호직진또는녹색좌회전신호좌회전",
+    "response": "Q1: 없음  \nQ2: unknown  \nQ3: unknown  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: 없음  \nQ14: A선행  \nQ23: 있음  \nQ25: 10m이내  \nQ31: 통과전  \nQ32: unknown"
+  },
+  "bb_1_180814_pedestrian_192_122": {
+    "object": 1,
+    "place_ids": [
+      11
+    ],
+    "object_name": "차대보행자",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "자동차횡단보도통과후",
+    "gt_a": "적색신호횡단보도10m이내에서횡단",
+    "gt_b": "녹색신호직진또는녹색좌회전신호좌회전",
+    "response": "Q1: 없음  \nQ2: unknown  \nQ3: unknown  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: 없음  \nQ14: A선행  \nQ23: 없음  \nQ25: unknown  \nQ31: 통과후  \nQ32: unknown"
+  },
+  "bb_1_211230_two-wheeled-vehicle_112_269": {
+    "object": 2,
+    "place_ids": [
+      4
+    ],
+    "object_name": "차대이륜차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "차도에서차도가아닌장소로진입",
+    "gt_a": "차도에서직진",
+    "gt_b": "차도에서차도가아닌장소로진입",
+    "response": "Q7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: 없음  \nQ14: A선행  \nQ26: 없음"
+  },
+  "bb_3_191002_two-wheeled-vehicle_234_22067": {
+    "object": 2,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대이륜차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "차로변경진로변경",
+    "gt_a": "후행직진",
+    "gt_b": "진로변경",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ13: unknown  \nQ14: unknown  \nQ18: 없음  \nQ19: 없음  \nQ20: 없음  \nQ38: unknown  \nQ39: unknown"
+  },
+  "bb_1_200603_two-wheeled-vehicle_142_260": {
+    "object": 2,
+    "place_ids": [
+      4
+    ],
+    "object_name": "차대이륜차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "차도가아닌장소에서차도로진입",
+    "gt_a": "차도에서직진",
+    "gt_b": "차도가아닌장소에서차도로진입",
+    "response": "Q7: 정차  \nQ8: 정차  \nQ9: 같은방향  \nQ11: unknown  \nQ14: 나란히  \nQ26: 없음"
+  },
+  "bb_1_160321_bike_234_22235": {
+    "object": 3,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대자전거",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "마주보는자전거와자동차간의사고",
+    "gt_a": "자동차를마주보며역주행",
+    "gt_b": "자전거를마주보며직진",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ14: unknown  \nQ20: 없음  \nQ33: unknown"
+  },
+  "bb_3_170422_bike_254_22146": {
+    "object": 3,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대자전거",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "마주보는자전거와자동차간의사고",
+    "gt_a": "자동차를마주보며역주행",
+    "gt_b": "자전거를마주보며직진",
+    "response": "Q7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: unknown  \nQ12: 없음  \nQ14: B선행  \nQ20: 없음  \nQ33: 일반도로위"
+  },
+  "bb_3_200917_bike_198_159": {
+    "object": 3,
+    "place_ids": [
+      1
+    ],
+    "object_name": "차대자전거",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "동일폭도로",
+    "gt_a": "오른쪽에서직진",
+    "gt_b": "왼쪽에서직진",
+    "response": "Q5: 없음  \nQ6: unknown  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ10: unknown  \nQ11: 없음  \nQ14: A선행  \nQ15: 동일폭  \nQ34: unknown  \nQ46: 없음"
+  },
+  "bb_1_220703_vehicle_238_50381": {
+    "object": 0,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "추돌사고",
+    "gt_a": "주정차",
+    "gt_b": "후행추돌",
+    "response": "Q7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: 없음  \nQ12: 없음  \nQ13: 없음  \nQ14: A선행  \nQ16: unknown  \nQ18: 없음  \nQ19: 없음  \nQ20: 없음  \nQ21: 없음  \nQ38: unknown  \nQ39: 없음"
+  },
+  "bb_1_000102_vehicle_192_023": {
+    "object": 0,
+    "place_ids": [
+      3
+    ],
+    "object_name": "차대차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "동일폭도로",
+    "gt_a": "직진",
+    "gt_b": "우회전",
+    "response": "Q5: 없음  \nQ7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ10: unknown  \nQ11: unknown  \nQ14: unknown  \nQ15: unknown"
+  },
+  "bb_1_161217_vehicle_21_140": {
+    "object": 0,
+    "place_ids": [
+      1
+    ],
+    "object_name": "차대차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "2개차량이나란히통행가능한차로폭",
+    "gt_a": "후행직진차로좌측",
+    "gt_b": "선행좌회전차로우측",
+    "response": "Q5: 없음  \nQ6: unknown  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ10: unknown  \nQ11: 없음  \nQ14: unknown  \nQ15: 동일폭  \nQ17: 단일  \nQ18: 없음  \nQ21: 없음  \nQ45: unknown"
+  },
+  "bb_1_180114_pedestrian_241_22483": {
+    "object": 1,
+    "place_ids": [
+      7
+    ],
+    "object_name": "차대보행자",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "직선도로",
+    "gt_a": "횡단보도횡단",
+    "gt_b": "직진",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ14: unknown  \nQ23: 없음"
+  },
+  "bb_1_220625_pedestrian_142_194": {
+    "object": 1,
+    "place_ids": [
+      9
+    ],
+    "object_name": "차대보행자",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "보도와차도",
+    "gt_a": "차도에서놀이누워있음또는유사한행위",
+    "gt_b": "차도주행",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ14: unknown  \nQ23: 없음  \nQ25: unknown  \nQ36: 없음  \nQ37: 없음"
+  },
+  "bb_1_191130_pedestrian_250_21907": {
+    "object": 1,
+    "place_ids": [
+      8
+    ],
+    "object_name": "차대보행자",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "자동차교차로통과전",
+    "gt_a": "적색신호횡단시작적색신호충격",
+    "gt_b": "녹색신호직진",
+    "response": "Q1: 있음  \nQ2: 녹색  \nQ3: 녹색  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: 없음  \nQ14: 나란히  \nQ23: 없음  \nQ24: 없음  \nQ25: unknown  \nQ31: unknown  \nQ32: unknown"
+  },
+  "bb_1_160813_two-wheeled-vehicle_124_094": {
+    "object": 2,
+    "place_ids": [
+      4
+    ],
+    "object_name": "차대이륜차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "인도에서차도가아닌장소로진입",
+    "gt_a": "인도에서차도가아닌장소로진행",
+    "gt_b": "차도에서차도가아닌장소로진입",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ14: unknown  \nQ26: unknown"
+  },
+  "bb_3_210929_two-wheeled-vehicle_229_22449": {
+    "object": 2,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대이륜차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "차로변경진로변경",
+    "gt_a": "진로변경",
+    "gt_b": "후행직진",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ13: unknown  \nQ14: unknown  \nQ18: unknown  \nQ19: 없음  \nQ20: 없음  \nQ38: unknown  \nQ39: unknown"
+  },
+  "bb_3_220424_two-wheeled-vehicle_202_35300": {
+    "object": 2,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대이륜차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "추돌사고",
+    "gt_a": "선행직진",
+    "gt_b": "후행추돌",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ13: unknown  \nQ14: unknown  \nQ18: unknown  \nQ19: 없음  \nQ20: 없음  \nQ38: unknown  \nQ39: unknown"
+  },
+  "bb_1_220521_bike_129_195": {
+    "object": 3,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대자전거",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "차도가아닌장소에서차도로진입",
+    "gt_a": "차도가아닌장소에서차도로진입",
+    "gt_b": "차도에서직진",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ14: unknown  \nQ20: 없음  \nQ33: 일반도로위"
+  },
+  "bb_1_211002_bike_238_21873": {
+    "object": 3,
+    "place_ids": [
+      1
+    ],
+    "object_name": "차대자전거",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "대로와소로",
+    "gt_a": "소로에서좌회전",
+    "gt_b": "대로에서직진",
+    "response": "Q5: 없음  \nQ6: unknown  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ10: unknown  \nQ11: 없음  \nQ14: unknown  \nQ15: unknown  \nQ34: unknown  \nQ46: 없음"
+  },
+  "bb_1_211019_bike_200_178": {
+    "object": 3,
+    "place_ids": [
+      1
+    ],
+    "object_name": "차대자전거",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "대로와소로",
+    "gt_a": "소로에서직진",
+    "gt_b": "대로에서직진",
+    "response": "Q5: unknown  \nQ6: unknown  \nQ7: 직진  \nQ8: unknown  \nQ9: unknown  \nQ10: unknown  \nQ11: 없음  \nQ14: unknown  \nQ15: unknown  \nQ34: unknown  \nQ46: unknown"
+  },
+  "bb_1_161010_vehicle_145_069": {
+    "object": 0,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "추돌사고",
+    "gt_a": "주정차",
+    "gt_b": "후행추돌",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ13: unknown  \nQ14: unknown  \nQ16: unknown  \nQ18: unknown  \nQ19: 없음  \nQ20: 없음  \nQ21: 없음  \nQ38: unknown  \nQ39: unknown"
+  },
+  "bb_1_160926_vehicle_144_108": {
+    "object": 0,
+    "place_ids": [
+      2
+    ],
+    "object_name": "차대차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "교차로내진로변경",
+    "gt_a": "녹색신호직진교차로내진로변경",
+    "gt_b": "우회전",
+    "response": "Q1: 있음  \nQ2: 녹색  \nQ3: 녹색  \nQ4: unknown  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ10: unknown  \nQ11: 없음  \nQ14: A선행  \nQ21: 없음  \nQ40: 해당없음  \nQ41: 해당없음  \nQ42: 없음"
+  },
+  "bb_1_210322_vehicle_312_084": {
+    "object": 0,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "역주행사고중앙선침범",
+    "gt_a": "직진",
+    "gt_b": "중앙선침범직진",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ13: unknown  \nQ14: unknown  \nQ16: unknown  \nQ18: unknown  \nQ19: 없음  \nQ20: 없음  \nQ21: 없음  \nQ38: unknown  \nQ39: unknown"
+  },
+  "bb_1_200326_pedestrian_249_21618": {
+    "object": 1,
+    "place_ids": [
+      8
+    ],
+    "object_name": "차대보행자",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "자동차교차로통과후",
+    "gt_a": "적색신호횡단시작적색신호충격",
+    "gt_b": "녹색직진신호직진",
+    "response": "Q1: 있음  \nQ2: 녹색  \nQ3: unknown  \nQ7: 직진  \nQ8: unknown  \nQ9: 같은방향  \nQ11: 없음  \nQ14: A선행  \nQ23: 있음  \nQ24: unknown  \nQ25: 10m이내  \nQ31: 통과전  \nQ32: unknown"
+  },
+  "bb_1_210915_pedestrian_206_20462": {
+    "object": 1,
+    "place_ids": [
+      9
+    ],
+    "object_name": "차대보행자",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "보도와차도",
+    "gt_a": "차도보행이유없이보차도경계1m이상",
+    "gt_b": "차도주행",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ14: unknown  \nQ23: 없음  \nQ25: unknown  \nQ36: 없음  \nQ37: 없음"
+  },
+  "bb_3_191230_pedestrian_155_025": {
+    "object": 1,
+    "place_ids": [
+      8
+    ],
+    "object_name": "차대보행자",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "자동차교차로통과후",
+    "gt_a": "녹색신호횡단시작녹색녹색점멸포함신호충격",
+    "gt_b": "적색신호좌회전",
+    "response": "Q1: 없음  \nQ2: unknown  \nQ3: unknown  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: unknown  \nQ14: 나란히  \nQ23: 있음  \nQ24: unknown  \nQ25: 10m이내  \nQ31: 통과전  \nQ32: unknown"
+  },
+  "bb_3_160415_two-wheeled-vehicle_187_084": {
+    "object": 2,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대이륜차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "차로변경진로변경",
+    "gt_a": "후행직진",
+    "gt_b": "진로변경",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ13: unknown  \nQ14: unknown  \nQ18: 없음  \nQ19: 없음  \nQ20: 없음  \nQ38: unknown  \nQ39: unknown"
+  },
+  "bb_3_210726_two-wheeled-vehicle_195_167": {
+    "object": 2,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대이륜차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "third",
+    "mode": "debug",
+    "gt_feature": "차로변경진로변경",
+    "gt_a": "진로변경",
+    "gt_b": "후행직진",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ13: unknown  \nQ14: unknown  \nQ18: unknown  \nQ19: 없음  \nQ20: 없음  \nQ38: unknown  \nQ39: unknown"
+  },
+  "bb_1_141027_two-wheeled-vehicle_142_257": {
+    "object": 2,
+    "place_ids": [
+      2
+    ],
+    "object_name": "차대이륜차",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "?",
+    "gt_a": "?",
+    "gt_b": "?",
+    "response": "Q1: 있음  \nQ2: 적색  \nQ3: 적색  \nQ4: unknown  \nQ7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ10: unknown  \nQ11: unknown  \nQ14: unknown  \nQ21: 없음  \nQ40: 해당없음  \nQ41: 해당없음  \nQ42: 없음"
+  },
+  "bb_1_170609_bike_220_22281": {
+    "object": 3,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대자전거",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "선행차량과후행차량",
+    "gt_a": "후행추돌",
+    "gt_b": "선행직진",
+    "response": "Q7: 직진  \nQ8: 직진  \nQ9: 같은방향  \nQ11: 없음  \nQ12: 없음  \nQ14: B선행  \nQ20: 없음  \nQ33: 일반도로위"
+  },
+  "bb_1_181116_bike_230_21580": {
+    "object": 3,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대자전거",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "차도가아닌장소에서차도로진입",
+    "gt_a": "차도가아닌장소에서차도로진입",
+    "gt_b": "차도에서직진",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ14: unknown  \nQ20: 없음  \nQ33: unknown"
+  },
+  "bb_1_180207_bike_253_22031": {
+    "object": 3,
+    "place_ids": [
+      0
+    ],
+    "object_name": "차대자전거",
+    "a_name": "A객체",
+    "b_name": "B객체",
+    "pov": "unknown",
+    "mode": "debug",
+    "gt_feature": "마주보는자전거와자동차간의사고",
+    "gt_a": "자동차를마주보며역주행",
+    "gt_b": "자전거를마주보며직진",
+    "response": "Q7: unknown  \nQ8: unknown  \nQ9: unknown  \nQ11: unknown  \nQ12: unknown  \nQ14: unknown  \nQ20: 없음  \nQ33: 일반도로위"
+  }
+}
