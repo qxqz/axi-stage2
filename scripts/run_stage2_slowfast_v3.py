@@ -223,11 +223,9 @@ def build_prompt(object_name, a_name, b_name, pov,
 
     vocab_str = ""
     for feat_name, pairs in combos.items():
-        a_terms = sorted(set(a for a, b, _ in pairs))
-        b_terms = sorted(set(b for a, b, _ in pairs))
         vocab_str += f"\n[{feat_name}]\n"
-        vocab_str += f"  A({a_name}) 행동 후보: {', '.join(a_terms)}\n"
-        vocab_str += f"  B({b_name}) 행동 후보: {', '.join(b_terms)}\n"
+        for i, (a, b, pn) in enumerate(sorted(set(pairs)), 1):
+            vocab_str += f"  {i}. A:{a} | B:{b} (장소:{pn})\n"
 
     place_str = ", ".join(mapping['place'][str(p)] for p in place_ids)
 
@@ -235,7 +233,7 @@ def build_prompt(object_name, a_name, b_name, pov,
 사고 유형: {object_name} / 장소 후보: {place_str}
 (앞 {slow_n}장 고해상도, 뒤 {fast_n}장 저해상도 전체 흐름 {duration:.1f}초)
 
-아래는 이 사고에서 사용 가능한 분류 용어입니다. 반드시 이 용어들을 활용하여 서술하세요.
+아래는 이 사고에서 가능한 [특징, A행동, B행동] 조합입니다. 반드시 이 용어들을 활용하여 서술하세요.
 {vocab_str}
 관찰된 내용을 바탕으로 3~4문장으로 서술하세요:
 - 충돌 전 A({a_name})와 B({b_name}) 각각의 행동 (위 용어 사용)
